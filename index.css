@@ -92,6 +92,28 @@ img {
   background-color: hsla(276, 68%, 41%, 0.5)
 }
 
+.attribution {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+}
+
+.attribution a:hover, 
+.attribution a:active {
+  color: hsl(277, 64%, 61%);
+}
+
+.attribution a:visited {
+  color: none;
+}
+
 @media screen and (min-width: 750px) and (max-width: 1200px) {
   .container {
     height: auto;
@@ -123,6 +145,10 @@ img {
 
   .txt-container p {
     margin-right: 0;
+  }
+
+  .attribution {
+    display: none;
   }
 
 }
@@ -183,6 +209,10 @@ img {
   .txt-container p {
     margin-right: 0;
   }
+
+  .attribution {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -192,5 +222,9 @@ img {
 
   .txt-container p {
     margin-right: 0;
+  }
+
+  .attribution {
+    display: none;
   }
 }
